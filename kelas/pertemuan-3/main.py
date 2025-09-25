@@ -37,11 +37,11 @@ tinggiBadan = 150
 pesan = "Boleh" if tinggiBadan >= 145 else "tidak boleh"
 print(pesan)
 
-totalBelanja = 1000000
+totalBelanja = float(input("Total Belanja : "))
 if totalBelanja > 100000:
-    diskon = "20%"
+    diskon = totalBelanja * 0.2
 elif totalBelanja > 50000:
-    diskon = "10%"
+    diskon = totalBelanja * 0.1
 else:
     diskon = "Tidak Dapat"
 
