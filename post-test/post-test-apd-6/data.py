@@ -1,10 +1,9 @@
+Users = {
+    "admin": {"password": "admin123", "role": "Admin"},
+    "zidan": {"password": "sigma", "role": "user"}
+}
 
-# data user
-Users = [
-    ["admin","admin123","Admin"],
-    ["zidan","sigma","user"],
-]
-labGear = [
-    ["Laptop",5,"tersedia","-"],
-    ["Komputer",1,"tersedia","-"]
-]
+labGear = {
+    "Laptop": {"jumlah": 5, "status": "tersedia", "peminjam": "-"},
+    "Komputer": {"jumlah": 1, "status": "tersedia", "peminjam": "-"}
+}
