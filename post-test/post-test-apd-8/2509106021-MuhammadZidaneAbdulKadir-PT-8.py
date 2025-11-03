@@ -11,7 +11,7 @@ while programBerjalan:
 
     if not sedangLogin:
         print(INFO + "1. Login")
-        print("2. Register")
+        print(INFO + "2. Register")
         print("3. Keluar" + RESET)
         try:
             pilih = input("Pilihan : ").strip()
